@@ -1,0 +1,326 @@
+$date
+	Mon Jun 29 00:00:30 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module vendingmachine_tb $end
+$var wire 1 ! y $end
+$var wire 1 " R $end
+$var wire 2 # Qb [1:0] $end
+$var wire 2 $ Q [1:0] $end
+$var reg 1 % clk $end
+$var reg 1 & rst $end
+$var reg 2 ' x [1:0] $end
+$scope module A1 $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var wire 1 ( w0 $end
+$var wire 1 ) w1 $end
+$var wire 1 * w2 $end
+$var wire 1 + w3 $end
+$var wire 2 , x [1:0] $end
+$var wire 2 - QB [1:0] $end
+$var wire 2 . Q [1:0] $end
+$var reg 1 " R $end
+$var reg 1 ! y $end
+$scope module d0 $end
+$var wire 1 ( D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 / Q $end
+$var reg 1 0 Qb $end
+$upscope $end
+$scope module d1 $end
+$var wire 1 ) D $end
+$var wire 1 % clk $end
+$var wire 1 & rst $end
+$var reg 1 1 Q $end
+$var reg 1 2 Qb $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x2
+x1
+x0
+x/
+bx .
+bx -
+b0 ,
+0+
+0*
+x)
+x(
+b0 '
+1&
+0%
+bx $
+bx #
+0"
+0!
+$end
+#5000
+0(
+0)
+10
+0/
+b11 #
+b11 -
+12
+b0 $
+b0 .
+01
+1%
+#10000
+1(
+0%
+b1 '
+b1 ,
+#15000
+1%
+#20000
+1)
+0(
+0%
+b10 '
+b10 ,
+#25000
+1%
+#30000
+0)
+0%
+b11 '
+b11 ,
+#35000
+1%
+#40000
+1(
+0%
+b1 '
+b1 ,
+0&
+#45000
+0(
+1)
+b10 #
+b10 -
+00
+b1 $
+b1 .
+1/
+1%
+#50000
+1(
+0)
+0%
+b0 '
+b0 ,
+#55000
+1%
+#60000
+0(
+1)
+0%
+b1 '
+b1 ,
+#65000
+1*
+1(
+1)
+10
+0/
+b1 #
+b1 -
+02
+b10 $
+b10 .
+11
+1%
+#70000
+0%
+#75000
+0)
+0*
+1!
+b0 #
+b0 -
+00
+b11 $
+b11 .
+1/
+1%
+#80000
+0(
+0%
+b11 '
+b11 ,
+#85000
+10
+0/
+b11 #
+b11 -
+12
+b0 $
+b0 .
+01
+0!
+1%
+#90000
+1)
+0%
+b10 '
+b10 ,
+#95000
+0)
+1+
+1*
+b1 #
+b1 -
+02
+b10 $
+b10 .
+11
+1%
+#100000
+1)
+1(
+0+
+0%
+b1 '
+b1 ,
+#105000
+0)
+0*
+b0 #
+b0 -
+00
+b11 $
+b11 .
+1/
+1!
+1%
+#110000
+0%
+#115000
+0(
+1)
+0!
+b10 #
+b10 -
+12
+b1 $
+b1 .
+01
+1%
+#120000
+1(
+1)
+1*
+0+
+0%
+b10 '
+b10 ,
+#125000
+0(
+0*
+b0 #
+b0 -
+02
+b11 $
+b11 .
+11
+1!
+1%
+#130000
+0%
+#135000
+0)
+1+
+1*
+0!
+b1 #
+b1 -
+10
+b10 $
+b10 .
+0/
+1%
+#140000
+0*
+1(
+0%
+b11 '
+b11 ,
+#145000
+0(
+00
+1/
+b10 #
+b10 -
+12
+b1 $
+b1 .
+01
+1"
+1%
+#150000
+0%
+#155000
+0+
+b11 #
+b11 -
+10
+b0 $
+b0 .
+0/
+1%
+#160000
+1)
+0%
+b10 '
+b10 ,
+#165000
+0)
+1+
+1*
+b1 #
+b1 -
+02
+b10 $
+b10 .
+11
+0"
+1%
+#170000
+0%
+#175000
+1)
+0+
+0*
+1"
+1!
+b11 #
+b11 -
+12
+b0 $
+b0 .
+01
+1%
+#180000
+0)
+0%
+b0 '
+b0 ,
+#185000
+0"
+0!
+1%
