@@ -50,7 +50,7 @@ The outputs `y` (dispense) and `R` (refund) are **registered** (clocked) to avoi
 ```
 FiniteVend/
 │
-├── Dff.v                    # D Flip-Flop module (building block)
+├── dff.v                    # D Flip-Flop module (building block)
 ├── vendingmachine.v         # Main FSM vending machine module
 ├── vendingmachine_tb.v      # Testbench for simulation
 ├── dump.vcd                 # VCD waveform file (generated after simulation)
@@ -258,7 +258,7 @@ gtkwave dump.vcd
 ### All Three Commands Together
 
 ```bash
-iverilog -o vendingmachine_tb.out vendingmachine_tb.v vendingmachine.v Dff.v
+iverilog -o vendingmachine_tb.out vendingmachine_tb.v vendingmachine.v dff.v
 vvp vendingmachine_tb.out
 gtkwave dump.vcd
 ```
