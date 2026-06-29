@@ -75,7 +75,7 @@ FiniteVend/
 | State Bits | **2-bit (Q[1:0])** |
 | Input Bits | **2-bit (x[1:0])** |
 | Clock | **Synchronous (posedge)** |
-| Reset | **Synchronous, active high** |
+| Reset(rst) | **Synchronous, active high** |
 | Output Type | **Registered (clocked)** |
 
 # ⚠️ Warning
