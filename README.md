@@ -20,11 +20,13 @@ A 2-bit FSM-based vending machine implemented in Verilog HDL. Accepts 5 Rs and 1
 - [Boolean Equations](#boolean-equations)
 - [How to Run](#how-to-run)
 - [Simulation Output](#simulation-output)
+- [Testbench Scenarios Covered](#testbench-scenarios-covered)
 - [Tools Used](#tools-used)
 - [Design Methodology](#design-methodology)
 - [Key Concepts](#key-concepts)
 - [Design Notes](#design-notes)
 - [Author](#author)
+- [License](#license)
 
 ---
 
@@ -53,7 +55,7 @@ FiniteVend/
 ├── dff.v                    # D Flip-Flop module (building block)
 ├── vendingmachine.v         # Main FSM vending machine module
 ├── vendingmachine_tb.v      # Testbench for simulation
-├── dump.vcd                 # VCD waveform file (generated after simulation)
+├── dump.vcd                 # VCD waveform file (auto-generated after running vvp simulation — not present until you run Step 2)
 ├── state_diagram.png        # FSM state diagram image
 ├── io_wave.png              # Input/Output waveform screenshot from GTKWave/Vivado
 ├── schematic.png            # RTL schematic of the vending machine circuit
