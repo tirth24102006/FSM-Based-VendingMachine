@@ -56,7 +56,7 @@ FiniteVend/
 ├── vendingmachine.v         # Main FSM vending machine module
 ├── vendingmachine_tb.v      # Testbench for simulation
 ├── dump.vcd                 # VCD waveform file (auto-generated after running vvp simulation — not present until you run Step 2)
-├── state_diagram.jpeg        # FSM state diagram image
+├── state_diagram.jpeg       # FSM state diagram image
 ├── io_wave.png              # Input/Output waveform screenshot from GTKWave/Vivado
 ├── schematic.png            # RTL schematic of the vending machine circuit
 └── README.md                # Project documentation (this file)
