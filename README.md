@@ -55,6 +55,8 @@ FiniteVend/
 ├── vendingmachine_tb.v      # Testbench for simulation
 ├── dump.vcd                 # VCD waveform file (generated after simulation)
 ├── state_diagram.png        # FSM state diagram image
+├── io_wave.png              # Input/Output waveform screenshot from GTKWave/Vivado
+├── schematic.png            # RTL schematic of the vending machine circuit
 └── README.md                # Project documentation (this file)
 ```
 
@@ -73,6 +75,10 @@ FiniteVend/
 | Clock | **Synchronous (posedge)** |
 | Reset | **Synchronous, active high** |
 | Output Type | **Registered (clocked)** |
+
+# ⚠️ Warning
+
+Clicking the Reset button will permanently forfeit all accumulated money. The system will reinitialize, and your balance will return to 0 rupees (State S1). This action cannot be refunded.
 
 ---
 
@@ -171,6 +177,7 @@ This is the complete **16-row truth table** covering all combinations of current
 ## 🔄 State Diagram
 
 > See `state_diagram.png` included in the repository for the full graphical state diagram showing all 4 states, transitions, and input/output labels.
+> INPUT | OUTPUT | REFUND
 
 ---
 
