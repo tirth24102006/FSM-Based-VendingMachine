@@ -28,7 +28,7 @@ A 2-bit FSM-based vending machine implemented in Verilog HDL. Accepts 5 Rs and 1
 - [Author](#author)
 - [License](#license)
 
----
+ ---
 
 ## 📌 Overview
 
