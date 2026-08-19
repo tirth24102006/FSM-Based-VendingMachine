@@ -4,7 +4,7 @@ A 2-bit FSM-based vending machine implemented in Verilog HDL. Accepts 5 Rs and 1
 # ⚡FSM Based Vending Machine in Verilog
 
 > A fully verified, synchronous Finite State Machine (FSM) based vending machine implemented in Verilog HDL. Accepts 5 Rs and 10 Rs coins, dispenses a toffee at 15 Rs, and supports incremental 5 Rs refund. Designed using D Flip-Flops with Boolean logic minimized from K-maps and verified against all 16 input-state combinations.
-
+ 
 ---
   
 ## 📋 Table of Contents
